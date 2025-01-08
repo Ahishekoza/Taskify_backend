@@ -6,7 +6,7 @@ import cors from 'cors'
 const app = express();
 app.use(express.json())
 app.use(cors({
-  origin:["https://taskify-frontend-iota.vercel.app/"]
+  origin:["https://taskify-frontend-csmyw7oau-abhishek-ozas-projects.vercel.app/"]
 }))
 connectDB()
 .then(() => {
