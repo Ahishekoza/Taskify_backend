@@ -5,7 +5,7 @@ import { todoRoute } from "./routes/todos.route.js";
 import cors from 'cors'
 const app = express();
 app.use(express.json())
-app.use(cors()
+app.use(cors())
 connectDB()
 .then(() => {
   app.listen(8081, () => {
